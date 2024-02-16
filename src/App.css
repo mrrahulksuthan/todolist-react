@@ -1,0 +1,67 @@
+.App {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+ 
+body{
+  background-color: rgb(243, 241, 241);
+}
+
+section{
+  height: fit-content;
+}
+
+.mainHeading{
+  font-size: 36px;
+  text-align: center;
+}
+
+.addtask{  
+    border: rgb(0, 0, 0);
+    border-radius: 6px;
+    display: inline-block;
+    font-size: 1.0rem;
+    font-weight: 500;
+    height: 20px;
+    width: 400px; 
+    padding: 0.4rem 2rem; 
+    background-color: white;
+    color: black;
+    /* margin-left: 530px; */
+}
+
+
+.displayArea{
+  background-color: rgb(221, 221, 221);
+  padding: 0.4rem 2rem;
+  height: fit-content;
+  min-height: 40px;
+  width: 400px;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  margin-left: 535px;
+  border-radius: 9px; 
+  justify-content: left;
+}
+
+.dltButton{
+  background-image: url(C:\WindowsApplication\React\weather_application\public\remove.png); 
+  height: 16px;
+  width: 16px;
+  border: none;
+  background-color: transparent; 
+  cursor: pointer;
+  margin-left: 3px; 
+}
+
+.editButton{
+  background-image: url(C:\WindowsApplication\React\weather_application\public\pen.png); 
+  height: 16px;
+  width: 16px;
+  border: none;
+  background-color: transparent; 
+  cursor: pointer;
+  margin-left: 3px; 
+}
